@@ -1,0 +1,48 @@
+body {
+        text-align: center;
+}
+
+#logo {
+    width: 333px;
+    height: 99px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+input {
+    font-size: 12px;
+    padding: 10px 10px;
+}
+
+select {
+    margin: 0px 10px;
+}
+
+img {
+    width: 333px;
+    height: 333px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+button {
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+#results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.result {
+    padding: 15px;
+}
